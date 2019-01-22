@@ -27,7 +27,7 @@ class ProfileViewController: UIViewController {
     @IBAction func menuBtn(_ sender: Any) {
         if menuShowing{
             leadingConstraint.constant = -200
-            UIView.animate(withDuration: 0.5) {
+            UIView.animate(withDuration: 0.3) {
                 self.view.layoutIfNeeded()
             }
         }else{

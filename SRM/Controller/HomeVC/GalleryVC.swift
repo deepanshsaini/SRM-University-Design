@@ -32,6 +32,9 @@ extension GalleryVC: PinterestLayoutDelegate {
         let image = images[indexPath.item]
         let height = image?.size.height
         
+        
+        
+        
         return height!
     }
 }

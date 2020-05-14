@@ -15,7 +15,7 @@ class HomeVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSour
     
     var arrayOfImage = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "4"),UIImage(named: "5"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "8")]
     
-    var arrayOfImages = [UIImage(named: "abou"),UIImage(named: "application"),UIImage(named: "faculty"),UIImage(named: "locate"),UIImage(named: "campuslife"),UIImage(named: "fees"),UIImage(named: "gallery"),UIImage(named: "news"),UIImage(named: "abou"),UIImage(named: "application"),UIImage(named: "faculty"),UIImage(named: "locate"),UIImage(named: "campuslife"),UIImage(named: "fees"),UIImage(named: "gallery"),UIImage(named: "news")]
+    var arrayOfImages = [UIImage(named: "abou"),UIImage(named: "application"),UIImage(named: "faculty"),UIImage(named: "locate"),UIImage(named: "campuslife"),UIImage(named: "fees"),UIImage(named: "Gallery"),UIImage(named: "news"),UIImage(named: "abou"),UIImage(named: "application"),UIImage(named: "faculty"),UIImage(named: "locate"),UIImage(named: "campuslife"),UIImage(named: "fees"),UIImage(named: "Gallery"),UIImage(named: "news")]
     var arrayofIDS = ["About","Admission","Courses","Locate","Campus Life","Fees","Gallery","News","About","Admission","Courses","Locate","Campus Life","Fees","Gallery","News"]
     
     override func viewDidLoad() {
